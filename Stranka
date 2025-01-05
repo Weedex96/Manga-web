@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manga - Kapitola 1</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Manga: Příběh Jedenáctiocasého</h1>
+        <nav>
+            <ul>
+                <li><a href="#intro">O příběhu</a></li>
+                <li><a href="#chapter1">Kapitola 1</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="intro">
+        <h2>O příběhu</h2>
+        <p>Tōma Maejirō, poslední obránce svého světa, se vydává na cestu plnou nebezpečí, aby porazil temné síly ovládající jeho domov. Sleduj jeho boj proti jedenáctiocasému démonovi, který vládne všemi elementy.</p>
+    </section>
+
+    <section id="chapter1">
+        <h2>Kapitola 1: Počátek</h2>
+        <div class="manga-page">
+            <img src="page1.jpg" alt="Stránka 1">
+            <img src="page2.jpg" alt="Stránka 2">
+            <img src="page3.jpg" alt="Stránka 3">
+            <!-- Další stránky -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Tým Manga. Všechna práva vyhrazena.</p>
+    </footer>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.manga-page img {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+}
